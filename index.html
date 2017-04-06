@@ -1,93 +1,12 @@
-<!doctype html>
-
-
-
-  
-
-
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
+    <meta charset="utf-8">
     
+    <title>吕小白的博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
-
-
-
-
-
-
-<meta name="description" content="What we think, we become.">
+    <meta name="description" content="What we think, we become.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="吕小白的博客">
 <meta property="og:url" content="http://colink.tech/index.html">
@@ -96,919 +15,399 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="吕小白的博客">
 <meta name="twitter:description" content="What we think, we become.">
+    
 
+    
+        <link rel="alternate" href="/" title="吕小白的博客" type="application/atom+xml" />
+    
 
+    
 
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: '6389936521188738000',
-      author: 'Author'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
 
+    <link rel="stylesheet" href="/css/style.css">
 
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
 
-  <link rel="canonical" href="http://colink.tech/"/>
-
-
-
-
-
-  <title> 吕小白的博客 </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/index.html">主页</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">关于</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">吕小白的博客</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
 </div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://colink.tech/2017/02/27/《硅谷之迷》笔记/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Colin">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="吕小白的博客">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="吕小白的博客" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/02/27/《硅谷之迷》笔记/" itemprop="url">
-                  《硅谷之谜》笔记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-27T11:17:21+08:00">
-                2017-02-27
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/读书笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">读书笔记</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/02/27/《硅谷之迷》笔记/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/27/《硅谷之迷》笔记/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>已经读过吴军博士写的几本书，开了眼界。这本<a href="https://book.douban.com/subject/26665230/" target="_blank" rel="external">《硅谷之谜》</a>算是<a href="https://book.douban.com/subject/6709783/" target="_blank" rel="external">《浪潮之巅》</a>的续集，探讨了硅谷之所以为硅谷的深层次原因。决定把书中有意思的东西记录下来。</p>
-<h3 id="硅谷的文化"><a href="#硅谷的文化" class="headerlink" title="硅谷的文化"></a>硅谷的文化</h3><ol>
-<li><p><strong>冒险者精神——狼性</strong></p>
-<p>旧金山地区一直以来是冒险者的圣地。从19世纪的淘金热，再到20世纪迅速发展起来的风险投资，以及硅谷一直以来特有的“叛逆精神”以及“对叛逆的包容”，硅谷的冒险家们续写了硅谷的传奇。</p>
-</li>
-<li><p><strong>追求各族群平等</strong></p>
-<p>旧金山地区最初是西班牙殖民地（很多地名为西班牙语）,再到后来的非洲，欧洲移民，以及现在的亚洲移民。多文化的起源促生了平等对待各族群的要求，硅谷也产生了特有的移民文化。</p>
-</li>
-<li><p><strong>强调个人奋斗的保守主义</strong></p>
-<p>从个人角度来讲， 强调通过个人奋斗提高社会地位，最大化个人利益，淡化集体利益，遇到困难时靠自己的努力走出困境，而不是求助政府；从企业的角度来讲，政府与企业之间仅存在税收的关系（况且公司的税收不是在一个地方缴纳的，所以当地政府拿不到多少税收，反而是一些大公司如Google，Apple会帮助改善当地的基础设施），这也说明了硅谷的公司对政府没有什么依赖。</p>
-</li>
-<li><p><strong>DIY的思维方式</strong></p>
-<p>强调很强的动手能力，这也是区分硅谷工程师与其他工程师的因素。</p>
-</li>
-</ol>
-<h3 id="硅谷风险投资方式——由KPCB和红杉确立"><a href="#硅谷风险投资方式——由KPCB和红杉确立" class="headerlink" title="硅谷风险投资方式——由KPCB和红杉确立"></a>硅谷风险投资方式——由KPCB和红杉确立</h3><ol>
-<li><strong>广收薄种</strong></li>
-<li><strong>双倍砸钱</strong> ——对于第一轮投资表现好的在下一轮加倍投资</li>
-<li><strong>技术价值投资</strong></li>
-</ol>
-<h3 id="硅谷的起源和发展"><a href="#硅谷的起源和发展" class="headerlink" title="硅谷的起源和发展"></a>硅谷的起源和发展</h3><ol>
-<li><p><strong>起源</strong></p>
-<p>天时：在半导体行业兴起时IBM准备在西海岸建立研发基地</p>
-<p>地利：斯坦福大学有土地</p>
-<p>人和：<a href="https://en.wikipedia.org/wiki/Traitorous_eight" target="_blank" rel="external">“八叛徒”</a> 从肖克利手下叛逃，创立了仙童公司（其实是人不和）</p>
-<p>事实上，看似巧合的起源也有其必然。首先，远离传统工业区，西海岸的自由的环境更适合IBM的研发；斯坦福大学在没有经费的情况下设法自救，开放了科技园；诺伊斯以及摩尔等人跟随肖克利来到加州也是因为西海岸脱离了传统工业的限制和束缚。</p>
-</li>
-<li><p><strong>硅谷1.0</strong></p>
-<p>对应第二轮淘金热，白色的金——半导体硅。主要是仙童公司以及其派生出来的公司，如英特尔等。英特尔也成为了世界上最大的半导体公司。英特尔一开始以DRAM为主业，后来一次偶然机遇开始了通用CPU的开发，便有了后来著名的x86系列。这一时期硅谷叛逆之风开始兴起，虽然仙童在创始人离开之后开始衰退，没有能够成为像IBM一样的巨无霸，但是它对硅谷的半导体行业的兴起起到了决定性作用。</p>
-</li>
-<li><p><strong>硅谷2.0</strong></p>
-<p>对应了软件和互联网时代。最初软件的价值需要通过硬件来实现，软件都是搭配硬件免费提供给用户的。而Oracle打破了这一禁锢，将软件的使用权直接卖给使用者，最终成为了最大的数据库软件公司。Oracle也实现了对现有产业的颠覆，与IBM不同，Oracle直接走上了关系型数据库的道路。由于硬件成本逐渐降低，计算机走入家庭成为可能，这就更加促使了个人软件的发展。这里要提到的是软件的崛起和对包括软件在内的知识产权的保护有很大关系，美国是盗版软件最少的，而发展中国家一般都在60%以上。这一阶段也包括了互联网的崛起，思科、网景和雅虎的发展以及本阶段最后21世纪初的互联网泡沫。</p>
-</li>
-<li><p><strong>硅谷3.0</strong></p>
-<p>互联网泡沫之后，硅谷重新涌现出一批明星公司，如Facebook，Google等。其中Facebook也开启了互联网2.0时代。后互联网行业的高速发展速度也对创业公司提出了新的要求，与已知的“大且强”的公司不同，创业公司在这个阶段需要做到“小，快，灵”。对与创业者来说需要做到两点，<strong>首先是需要有真正创新的想法和过硬的技术，第二点就是用最短的时间将这个想法实现</strong>。</p>
-</li>
-</ol>
-<h3 id="硅谷的奥秘"><a href="#硅谷的奥秘" class="headerlink" title="硅谷的奥秘"></a>硅谷的奥秘</h3><ol>
-<li><p><strong>叛逆和对叛逆的宽容</strong></p>
-<p>与东北部的科技公司和大学不同，硅谷的公司以及大学对利用职位资源研发出成果，并用此成果开始创业更加包容。同时，硅谷的公司更偏向于鼓励员工进行创业并给予必要的投资，这样以后也可以更方便的并购。另外一个原因是，硅谷更鼓励<strong>站在巨人的肩膀上做“N+1”</strong>，而不是另起炉灶从头开始，或者做抄袭之类的“N-1”</p>
-</li>
-<li><p><strong>多元文化</strong></p>
-<p>很多公司一开始做产品时就已经把市场定位在全球。即要做到internationalization （i18n）而非localization（i10n）。Google公司的特点是一款产品在推出英文版的6个月内就推出其他主要语言版本。硅谷本身以移民为主，所以在最初的产品的确定上就有比较好的把握。</p>
-</li>
-<li><p><strong>拒绝平庸</strong></p>
-<p>对于企业来说，卓越是生存的必要条件，也正有了生存竞争硅谷才能保持长青。对于个人而言，硅谷的较高生存成本也决定了必将有残酷的淘汰，也是对人才的一种筛选。</p>
-</li>
-<li><p><strong>对失败的宽容</strong></p>
-<p>创业本身就很难，失败是常有的事。与其他地区看重失败本身不同，硅谷地区更看重创业者本身的努力以及抗压能力。只要创业者信守承诺，尽了最大的努力，以后再次获得投资的可能性比第一次还大。硅谷人常用的方法是试错（Try and error），有了投资人以及公司对失败的宽容，创业者能够更好的发挥创造力。即对失败的宽容也是对大胆创新的鼓励。</p>
-</li>
-<li><p><strong>工程师文化</strong></p>
-<p>工程师地位高：社会地位比较高，有很高的收入；在公司的地位比较高，工程师有话语权。</p>
-<p>DIY：“遇山开道，遇水搭桥”。对新技术有非常强的好奇心，自己动手实现想法。Android就是Andy（Andr）自己鼓捣小东西（oid）开发出来的。在硅谷，即使是功成名就的泰斗和巨头都还在自己写程序。硅谷的产品经理和工程师的比例极低，这也依靠了工程师善于自己动脑解决问题的特点。</p>
-<p>工程师的五层境界（不同等级的工程师之间的贡献以及价值可能相差数量级）：</p>
-<ul>
-<li>第五等：独立完成任务</li>
-<li>第四等：领导产品，将产品负责到底。</li>
-<li>第三等：做出行业里最好的产品</li>
-<li>第二等：做出改变世界的产品</li>
-<li>第一等：开创一个行业</li>
-</ul>
-</li>
-</ol>
-<ol>
-<li><p><strong>不迷信权威</strong></p>
-<p>科学是一个方法，一个过程，而不是一个结论。一个结论的正确，不能看谁得出来的，而要看它是怎么得到的。专业的不一定是对的，专业的也不一定能比非专业的做的更好。硅谷的公司更看重你做了什么，而不是你的职位高低。同时，要敢于做前人没有做过的事情，要有闯劲。</p>
-</li>
-<li><p><strong>扁平式管理</strong></p>
-<p>特征是汇报层级少，分权，限制上级对下级的人事权。从本质上来讲，扁平式管理是一种契约精神，类似于婚姻。人与人之间是相对平等的，几乎所有员工的福利是相同的。</p>
-</li>
-<li><p><strong>世界的情怀</strong></p>
-<p>为世界创造出伟大发明的三类人：梦想者，企业家和投资人，工程师。</p>
-</li>
-</ol>
-<h3 id="工业时代的科学基础"><a href="#工业时代的科学基础" class="headerlink" title="工业时代的科学基础"></a>工业时代的科学基础</h3><ol>
-<li><p><strong>机械思维促进人类文化进步</strong><br>牛顿开创了科学的时代，机械思维促使了第一次和第二次工业革命，在极大地提升人均GDP的同时使得人类的寿命翻了一番：</p>
-<ul>
-<li>用机械的思维方式解决问题：用理性的眼光对待已知和未知。</li>
-<li>发展出了对规律的确定性描述：与玻尔提出的不确定性相对。</li>
-<li>科学难题并创造优秀的工业产品：瓦特的改良蒸汽机，史蒂芬森的火车。</li>
-<li>促进了产品生产的标准化：泰勒管理理论。</li>
-</ul>
-</li>
-<li><p><strong>泰勒管理理论</strong></p>
-<ul>
-<li>效率优先：优化流程，标准化。产生了大规模流水生产线。</li>
-<li>同构的树状组织结构：各个部门交流少，资源浪费。</li>
-<li>人性化管理：“积极性加刺激性”，零和游戏时矛盾凸显。</li>
-<li>可预测性：根本上是机械思维的特点。</li>
-</ul>
-</li>
-<li><p><strong>现代工业企业管理制度</strong></p>
-<ul>
-<li>资本至关重要</li>
-<li>生产资料（和市场）起决定性作用</li>
-<li>人和企业：人隶属于企业，企业是主动的。</li>
-<li>人和人：企业的纵向层级结构和横向的部门分割结构明确了人与人之间管理和被管理的关系。</li>
-<li>分配制度：根本上是零和游戏。虽然早期资方在零和游戏中占优，但是劳工一方通过工会逐渐成为强势的一方。例如，如今的美国汽车行业已经被汽车工会的福利开销搞垮。</li>
-<li>专利制度：大工业时期确定。在信息时代出现了难以用专利保护发明以及难以确定专利受益者的问题。专利保护的是一个过程（包括一种实现方法）和一个结果。某一种算法或者原理不能申请专利。</li>
-</ul>
-</li>
-</ol>
-<h3 id="信息时代的科学基础"><a href="#信息时代的科学基础" class="headerlink" title="信息时代的科学基础"></a>信息时代的科学基础</h3><ol>
-<li><p><strong>三论——控制论，信息论，系统论</strong></p>
-<ul>
-<li><p>控制论：由维纳提出。不断根据反馈进行调整和优化。与机械思维指导下生产的可准确预测的工业产品不同，信息时代的互联网产品需要不断对市场和需求的变化进行改变。</p>
-</li>
-<li><p>信息论：由香农提出。最大熵原理，信源编码（香农第一定律），信道编码（香农第二定律）。霍夫曼编码衍生出资源配置的方案，以及不断对信道的拓宽。</p>
-</li>
-<li><p>系统论：由贝塔朗菲提出。系统性能未必能通过改进局部进行优化</p>
-</li>
-</ul>
-</li>
-<li><p><strong>从预测到反应</strong></p>
-<ul>
-<li><p>强调通过不断根据技术发展和市场变化进行资源的再分配</p>
-<blockquote>
-<p>风险投资两个原则：不做事先假定或预测（鸡蛋不放在一个篮子里），把最多资源投给最可能成功的项目。</p>
-</blockquote>
-</li>
-<li><p>信息时代人的特点</p>
-<blockquote>
-<p>现代管理大师德鲁克提出知识工作者本身是自觉的自我管理者，促成了自下而上的管理特色。</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li><p><strong>从拥有到入口</strong></p>
-<ul>
-<li><p>硅谷的公司对固定资产的需求或者依赖性很小</p>
-</li>
-<li><p>更看重网络效应和入口效应</p>
-<blockquote>
-<p>网络效应指的是整个生态链中最有价值的关键点，入口效应对应于用户的入口和信息的流通量（香农第二定律）。</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li><p><strong>从局部到整体</strong></p>
-<ul>
-<li><p>地区对大公司的依赖</p>
-<blockquote>
-<p>一方面由于它们的规模太大了，不允许新的公司竞争市场。另一方面即使大公司开始走下坡路，各种利益集团也想法设法维持大公司的生存。</p>
-</blockquote>
-</li>
-<li><p>产业里最好的公司很难走出这个产业</p>
-<blockquote>
-<p>根本上是追求局部最优的结果，而硅谷地区的企业通过先进的技术和管理方式能够达到全局最优。</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li><p><strong>再议硅谷的奥秘</strong></p>
-<ul>
-<li>硅谷公司对失败的宽容。<br>一件事的成功与否很难预测，而对于事情发展的反应更加重要，即控制论中根据反馈不断进行调整。同时，在任务开始之前就要把失败的成本计算进去。</li>
-<li>给员工发放期权。期权分配的是未来业绩的增量而不是财富的存量，也使得员工和公司之间建立了契约关系。</li>
-<li>扁平式管理。实质上是增加了公司内部沟通的带宽，将组织结构由树状转变为网状。</li>
-<li>工程师文化。首先是资本和生产资料的地位下降，而创造力往往决定了成功与否。同时工程师也被当做是基层的管理者。</li>
-<li>不迷信权威。信息时代的不确定性太大。</li>
-<li>拒绝平庸。与霍夫曼编码一样，最好的资源一定留给最有价值的人和公司。</li>
-</ul>
-</li>
-<li><p><strong>大数据思维</strong></p>
-<ul>
-<li>本质是信息论。</li>
-<li>改变了以往先知道原因再推出结果的方式，通过完备的数据直接得到结论。</li>
-</ul>
-</li>
-<li><p><strong>互联网思维</strong></p>
-<ul>
-<li>本质也是信息论。</li>
-<li>人与人之间沟通的带宽得到极大的提高。</li>
-</ul>
-</li>
-</ol>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://colink.tech/2017/02/23/Github-pages-hexo/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Colin">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="吕小白的博客">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="吕小白的博客" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/02/23/Github-pages-hexo/" itemprop="url">
-                  打算扎根Github Pages + Hexo了
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-23T20:44:54+08:00">
-                2017-02-23
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/其它/" itemprop="url" rel="index">
-                    <span itemprop="name">其它</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/02/23/Github-pages-hexo/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/23/Github-pages-hexo/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>最一开始是阿里云vps+typecho，上面也写了些东西。后来没想到那么快阿里云就到期了，上面的东西也没有搬下来。想了想还是自己的锅……</p>
-<p>最近发现GitHub Pages是个好东西，于是就鼓捣了一下。虽然jekyll是原配，但是觉得Hexo更适合我这种懒人。</p>
-<p>一直觉得自己没什么写作的动力，毕竟是写作渣渣。但是不写点什么感觉时间过得太快了，所以还是写点什么吧。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
-
-          
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.png"
-               alt="Colin" />
-          <p class="site-author-name" itemprop="name">Colin</p>
-           
-              <p class="site-description motion-element" itemprop="description">What we think, we become.</p>
-          
-        </div>
-        <nav class="site-state motion-element">
-        
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives">
-                <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/ColinBin" target="_blank" title="Github">
-                  
-                    <i class="fa fa-fw fa-globe"></i>
-                  
-                  Github
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="https://www.zhihu.com/people/cklinbin/activities" target="_blank" title="Zhihu">
-                  
-                    <i class="fa fa-fw fa-globe"></i>
-                  
-                  Zhihu
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        
-
-        
-
-
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2017</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Colin</span>
-</div>
-
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
-  </a>
-</div>
-
-
-        
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-    
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
 </script>
+<script src="/js/insight.js"></script>
 
-
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
-
-
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
-
-
-
-  
-
-  
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
     
-  
+    <em class="page-title-link" data-url="home">主页</em>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            
 
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"colink"};
+    
+    
+        
+        
+        <section class="archives-wrap">
+            <div class="archive-year-wrap">
+                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
+            </div>
+            <div class="archives">
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/读书笔记/">读书笔记</a>
+            </div>
+            <div class="date"><time datetime="2017-04-06T02:45:24.000Z" itemprop="datePublished">2017-04-06</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2017/04/06/《How-to-Read-a-Book》Notes/">《How to Read a Book》Notes</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            《How to Read a Book》has been on my booklist for a long time. It is a book for those who aims for better reading and better understanding through reading.
+
+THE DIMENSIONS OF READING1. The Activity and 
+        </p>
+    </div>
+</article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/读书笔记/">读书笔记</a>
+            </div>
+            <div class="date"><time datetime="2017-02-27T03:17:21.000Z" itemprop="datePublished">2017-02-27</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2017/02/27/《硅谷之迷》笔记/">《硅谷之谜》笔记</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            已经读过吴军博士写的几本书，开了眼界。这本《硅谷之谜》算是《浪潮之巅》的续集，探讨了硅谷之所以为硅谷的深层次原因。决定把书中有意思的东西记录下来。
+硅谷的文化
+冒险者精神——狼性
+旧金山地区一直以来是冒险者的圣地。从19世纪的淘金热，再到20世纪迅速发展起来的风险投资，以及硅谷一直以来特有的“叛逆精神”以及“对叛逆的包容”，硅谷的冒险家们续写了硅谷的传奇。
+
+追求各族群平等
+旧金山地区最初是西班牙
+        </p>
+    </div>
+</article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/其它/">其它</a>
+            </div>
+            <div class="date"><time datetime="2017-02-23T12:44:54.000Z" itemprop="datePublished">2017-02-23</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2017/02/23/Github-pages-hexo/">打算扎根Github Pages + Hexo了</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            最一开始是阿里云vps+typecho，上面也写了些东西。后来没想到那么快阿里云就到期了，上面的东西也没有搬下来。想了想还是自己的锅……
+最近发现GitHub Pages是个好东西，于是就鼓捣了一下。虽然jekyll是原配，但是觉得Hexo更适合我这种懒人。
+一直觉得自己没什么写作的动力，毕竟是写作渣渣。但是不写点什么感觉时间过得太快了，所以还是写点什么吧。
+
+        </p>
+    </div>
+</article>
+    
+        </div>
+    
+
+
+    </div></section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ColinBin" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="zhihu" href="https://www.zhihu.com/people/cklinbin/activities" target="_blank">
+                        <i class="icon fa fa-zhihu"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="http://weibo.com/u/3894226634" target="_blank">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/读书笔记/">读书笔记</a></p>
+                            <p class="item-title"><a href="/2017/04/06/《How-to-Read-a-Book》Notes/" class="title">《How to Read a Book》Notes</a></p>
+                            <p class="item-date"><time datetime="2017-04-06T02:45:24.000Z" itemprop="datePublished">2017-04-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/读书笔记/">读书笔记</a></p>
+                            <p class="item-title"><a href="/2017/02/27/《硅谷之迷》笔记/" class="title">《硅谷之谜》笔记</a></p>
+                            <p class="item-date"><time datetime="2017-02-27T03:17:21.000Z" itemprop="datePublished">2017-02-27</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/其它/">其它</a></p>
+                            <p class="item-title"><a href="/2017/02/23/Github-pages-hexo/" class="title">打算扎根Github Pages + Hexo了</a></p>
+                            <p class="item-date"><time datetime="2017-02-23T12:44:54.000Z" itemprop="datePublished">2017-02-23</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/其它/">其它</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a><span class="category-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">四月 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">二月 2017</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <!--
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                -->
+                <p>&copy; 2017 Colin</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'baidu_udiab@sina.com'};
     (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
-  </script>
+    </script>
 
-  
+
+
+
     
-      
-      <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-      <script src="/js/src/hook-duoshuo.js?v=5.1.0"></script>
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
     
     
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
 
 
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
+    </div>
 </body>
 </html>
