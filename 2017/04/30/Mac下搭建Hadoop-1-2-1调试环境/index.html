@@ -47,7 +47,7 @@ Import Project
 
 Cr">
 <meta property="og:image" content="http://colink.tech/img/hadoop/import-project.png">
-<meta property="og:updated_time" content="2017-04-30T08:24:45.000Z">
+<meta property="og:updated_time" content="2017-04-30T08:39:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac下搭建Hadoop-1.2.1调试环境">
 <meta name="twitter:description" content="本机环境
@@ -230,15 +230,15 @@ Cr">
 </ul>
 <p>​        <img src="/img/hadoop/add-ant-build.png" alt="add-ant-build"></p>
 <ul>
-<li>找到src/mapred/org/apache/hadoop/mapreduce/lib/partittion/InputSampler改一行代码</li>
-</ul>
-<p>​        <img src="/img/hadoop/change-source.png" alt="change-source"></p>
-<ul>
-<li>Ant clean and compile</li>
+<li><p>找到src/mapred/org/apache/hadoop/mapreduce/lib/partittion/InputSampler改一行代码</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">K[] samples = (K[]) sampler.getSample(inf, job);</div></pre></td></tr></table></figure>
+</li>
+<li><p>Ant clean and compile</p>
+</li>
 </ul>
 <p>​        <img src="/img/hadoop/clean-compile.png" alt="clean-compile"></p>
 </li>
-<li><p>修改配置文件，搭建伪分布式系统</p>
+<li><p>修改配置文件，搭建伪分布式系统（<strong>可参考文章末第二个链接</strong>）</p>
 </li>
 <li><p>修改/bin/hadoop将最后两个exec改为echo</p>
 <p>​        <img src="/img/hadoop/exec-echo.png" alt="exec-echo"></p>
@@ -276,6 +276,15 @@ Cr">
 </li>
 <li><p>IntelliJ中分别对四个Configuration进行Debug</p>
 <p>​        <img src="/img/hadoop/namenode-debug.png" alt="namenode-debug"></p>
+</li>
+</ol>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ol>
+<li><p><a href="http://www.techbite.in/2013/05/debug-hadoop-source-code-using.html" target="_blank" rel="external">http://www.techbite.in/2013/05/debug-hadoop-source-code-using.html</a></p>
+</li>
+<li><p><a href="http://hadoopindepth.blogspot.jp/2014/08/installing-hadoop-121single-node-in.html" target="_blank" rel="external">http://hadoopindepth.blogspot.jp/2014/08/installing-hadoop-121single-node-in.html</a></p>
+</li>
+<li><p><a href="https://understandbigdata.wordpress.com/2012/12/17/debug-custom-java-hadoop-code-in-local-environment/" target="_blank" rel="external">https://understandbigdata.wordpress.com/2012/12/17/debug-custom-java-hadoop-code-in-local-environment/</a></p>
+<p>​</p>
 </li>
 </ol>
 
